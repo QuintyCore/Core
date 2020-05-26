@@ -2,9 +2,9 @@
 
 *.exe
 src/bitcoin
-src/yentend
-src/yenten-cli
-src/yenten-tx
+src/QUINTYd
+src/QUINTY-cli
+src/QUINTY-tx
 src/test/test_bitcoin
 src/test/test_bitcoin_fuzzy
 src/qt/test/test_bitcoin-qt
@@ -74,8 +74,8 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-yenten-qt
-Yenten-Qt.app
+QUINTY-qt
+QUINTY-Qt.app
 
 # Unit-tests
 Makefile.test

@@ -7,17 +7,17 @@ define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2018)
 define(_COPYRIGHT_HOLDERS,[The %s developers])
-define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[Yenten Core]])
-AC_INIT([Yenten Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/conan-equal-newone/yenten/issues],[yenten],[http://conan-equal-newone.github.io/yenten/])
+define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[QUINTY Core]])
+AC_INIT([QUINTY Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/conan-equal-newone/QUINTY/issues],[QUINTY],[http://conan-equal-newone.github.io/QUINTY/])
 AC_CONFIG_SRCDIR([src/validation.cpp])
 AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
-BITCOIN_DAEMON_NAME=yentend
-BITCOIN_GUI_NAME=yenten-qt
-BITCOIN_CLI_NAME=yenten-cli
-BITCOIN_TX_NAME=yenten-tx
+BITCOIN_DAEMON_NAME=QUINTY
+BITCOIN_GUI_NAME=QUINTY-qt
+BITCOIN_CLI_NAME=QUINTY-cli
+BITCOIN_TX_NAME=QUINTY-tx
 
 dnl Unless the user specified ARFLAGS, force it to be cr
 AC_ARG_VAR(ARFLAGS, [Flags for the archiver, defaults to <cr> if not set])
